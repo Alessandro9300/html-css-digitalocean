@@ -1,0 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+/* DEBUG:  */
+[class*="col-"]{
+  border: 2px black solid;
+  min-height: 50px;
+}
+/* DEBUG:  */
