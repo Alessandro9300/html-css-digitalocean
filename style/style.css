@@ -4,8 +4,95 @@
   box-sizing: border-box
 }
 /* DEBUG:  */
-[class*="col-"]{
+/* [class*="col-"]{
   border: 2px black solid;
   min-height: 50px;
-}
+} */
 /* DEBUG:  */
+
+
+button{
+  width: 75px;
+  height: 30px;
+  border-radius: 5px;
+  border-color: #337ab7;
+}
+
+section{
+  padding: 65px 0 65px 0;
+}
+
+
+/* FORMAT TEXT */
+
+h1{
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.large-p{
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff94;
+  line-height: 1.5;
+}
+
+/* HEADER */
+
+.fix-nav{
+  position: relative;
+  top: 75px;
+}
+
+
+
+header{
+  font-size: 16px;
+  font-weight: 600;
+  color: hsl(221,93%,16%);
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background-color: white;
+
+}
+
+
+.logo img{
+  width: 100%;
+
+}
+
+.logo , ul{
+  padding: 20px 0 20px 0;
+  margin-bottom: 0;
+
+}
+
+header li{
+  display: inline-block;
+  width: 23%;
+  text-align: center;
+
+}
+
+.nav-cent{
+  padding-top: 26px;
+}
+.nav-right{
+  padding-top: 25px;
+}
+
+/* FINE HEADER */
+
+/* JUMBO */
+
+.jumbo h1{
+  color: white;
+}
+
+.jumbo{
+  background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
+  background-size: contain;
+}
