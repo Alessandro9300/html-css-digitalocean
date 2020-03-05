@@ -42,7 +42,7 @@ h2{
   font-size: 40px;
   font-weight: 600;
   line-height: 1.4;
-  color: black;
+  color: rgba(3,27,78);
 }
 
 h3{
@@ -68,8 +68,8 @@ h4{
 .large-p{
   font-size: 20px;
   font-weight: 600;
-  color: #ffffff94;
   line-height: 1.5;
+  color: #424243bd;
 }
 
 /* HEADER */
@@ -129,6 +129,10 @@ header li{
 .jumbo{
   background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
   background-size: contain;
+}
+
+.jumbo .large-p{
+  color: #ffffff94;
 }
 
 /* right jumbo - google sign-up*/
@@ -197,10 +201,6 @@ header li{
 
 /* DEPLOY */
 
-.deploy .large-p{
-  color: #424243bd;
-}
-
 
 .aside-style{
   display: block;
@@ -230,4 +230,36 @@ header li{
 
 .aside-style:hover{
   color: #031b4e;
+}
+
+/* FINE DEPLOY */
+
+/* DESIGNED */
+
+.window-style{
+  margin-top: 75px;
+}
+
+.but-wind-style{
+  position: relative;
+  top: 300px;
+}
+
+.but-wind-style button{
+  border: none;
+  background-color: white;
+  font-size: 40px;
+  color: #031b4e;
+}
+
+.but-wind-style button:hover{
+  color: #0069ff;
+}
+
+.img-p{
+  margin-top: 20px;
+}
+
+.window-style li{
+  display: inline-block;
 }
