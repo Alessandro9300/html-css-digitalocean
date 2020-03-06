@@ -72,6 +72,7 @@ h4{
   color: #424243bd;
 }
 
+
 /* HEADER */
 
 .fix-nav{
@@ -177,6 +178,14 @@ header li{
   font-weight: 600;
 }
 
+.burger-button{
+  border: none;
+  background-color: white;
+  font-size: 35px;
+  padding: 20px 0 20px 0;
+  color: #0069ff;
+}
+
 /* FINE JUMBO */
 
 /* INNOVATIVE-BUSSINESSES */
@@ -279,6 +288,9 @@ header li{
   background-color: #0069ff;
 }
 
+.big-img{
+  width: 100%;
+}
 /* FINE DESIGNED */
 
 .built-bus img{
@@ -306,13 +318,11 @@ header li{
 
 .left-table{
   font-weight: 600;
-  width: 120px;
   text-align: left;
 
 }
 
 .cent-table{
-  width: 380px;
   opacity: 0.6;
   text-align: left;
 
@@ -330,6 +340,7 @@ header li{
 
 table{
   font-size: 13px;
+  width: 100%;
 }
 
 table td{
@@ -381,4 +392,80 @@ table tr{
 
 .window-style img:hover, .window-style .col-xs-6{
   cursor: grab;
+}
+
+/* FINE DEVS TEAM */
+
+.get-started{
+  background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
+  background-size: cover;
+}
+
+.get-started h2{
+  color: white;
+}
+
+.get-started button{
+  width: 200px;
+  height: 55px;
+  background-color: white;
+  border-radius: 6px;
+  color: #0069ff;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.get-started button:hover{
+  opacity: 0.8;
+}
+
+
+/* INIZIO FOOTER */
+footer{
+  background-color: #010e28;
+  padding: 65px;
+  color: white;
+
+}
+
+footer li{
+  display: inline-block;
+
+
+}
+
+footer li{
+  width: 100%;
+  padding: 6px;
+
+}
+
+footer li a{
+  font-size: 16px;
+  color: white;
+  opacity: .7;
+
+}
+
+.title-li{
+  font-weight: 600;
+  opacity: 1;
+}
+
+footer p{
+  opacity: 0.7;
+  margin-top: 13px;
+}
+
+.links{
+  padding: 0;
+  font-size: 20px;
+}
+
+.links li{
+  opacity: .7;
+  width: auto;
+}
+
+.links li:hover{
+  opacity: 1;
 }
