@@ -191,10 +191,11 @@ header li{
   transform: translateY(64%);
 }
 
-.innovative-bus a .medium-p {
+.blue-link {
   color: #337ab7;
   margin-top: 15px;
   display: inline-block;
+  font-weight: 600;
 }
 
 /* FINE INNOVATIVE BUSSINESSES */
@@ -260,6 +261,124 @@ header li{
   margin-top: 20px;
 }
 
-.window-style li{
+.li-little-but{
   display: inline-block;
+}
+
+.little-button{
+  height: 10px;
+  width: 10px;
+  border: #0069ff solid 2px;
+  background-color: white;
+  border-radius: 100%;
+  margin-right: 6px;
+  display: inline-block;
+}
+
+.little-button:hover{
+  background-color: #0069ff;
+}
+
+/* FINE DESIGNED */
+
+.built-bus img{
+  margin-bottom: 10px;
+}
+
+/* FINE BUILT FOR BUSINESS */
+
+/* INIZIO SERVICE */
+
+.service{
+  background: #031B4E url(https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg);
+
+  background-size: cover;
+  color: white;
+}
+
+.service h2{
+  color: white;
+}
+
+.service table{
+  margin-top: 60px;
+}
+
+.left-table{
+  font-weight: 600;
+  width: 120px;
+  text-align: left;
+
+}
+
+.cent-table{
+  width: 380px;
+  opacity: 0.6;
+  text-align: left;
+
+}
+
+.right-table{
+  text-align: right;
+
+}
+
+.right-table a{
+  color: #00d7d2;
+  font-weight: 600;
+}
+
+table{
+  font-size: 13px;
+}
+
+table td{
+  padding: 11px 10px 10px;
+}
+
+table tr{
+  border-bottom: 1px solid hsla(0,0%,100%,.2);
+}
+
+/* FINE SERVICE */
+
+/* INIZIO DEVS TEAM */
+
+.box-box{
+  border: 1px solid #e5e8ed;
+  padding: 45px;
+  color: rgba(3,27,78,.7);
+  border-radius: 12px;
+}
+
+.box-box img{
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+.text-b{
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 25px;
+  margin-bottom: 22px;
+  opacity: 0.8;
+}
+
+.sign-p{
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.box-p{
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.devs-team .but-wind-style{
+  top: 180px;
+}
+
+.window-style img:hover, .window-style .col-xs-6{
+  cursor: grab;
 }
