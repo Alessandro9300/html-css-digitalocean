@@ -191,13 +191,13 @@ header li{
 /* INNOVATIVE-BUSSINESSES */
 
 .innovative-bus img{
-  width: 100%;
-  height: 115px;
+  /* width: 100%; */
+  height: 100px;
 }
 
 #splunk-img{
-  height: 55px;
-  transform: translateY(64%);
+  height: 50px;
+  transform: translateY(60%);
 }
 
 .blue-link {
